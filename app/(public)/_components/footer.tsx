@@ -1,6 +1,6 @@
 'use client'
 
-import {Logo} from "@/app/(home)/_components/logo";
+import {Logo} from "@/app/(public)/_components/logo";
 import {Button} from "@/components/ui/button";
 
 export const Footer = () => {

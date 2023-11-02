@@ -1,6 +1,6 @@
-import {Heading} from "@/app/(home)/_components/heading";
-import {Heros} from "@/app/(home)/_components/heros";
-import {Footer} from "@/app/(home)/_components/footer";
+import {Heading} from "@/app/(public)/_components/heading";
+import {Heros} from "@/app/(public)/_components/heros";
+import {Footer} from "@/app/(public)/_components/footer";
 
 const HomePage = () => {
     return (
