@@ -2,8 +2,11 @@
 
 import {useScrollTop} from "@/hook/use-scroll-top";
 import {cn} from '@/lib/utils';
+import {useRouter} from "next/navigation";
 
 export const AdminNavbar = () => {
+
+
     const renderNavBarItems = () => {
         return (<>
             <ul className="menu menu-horizontal px-1">

@@ -19,7 +19,7 @@ const EDITOR_TOOLS = {
         class: Header,
         config: {
             placeholder: 'Enter a Header',
-            levels: [1, 2, 3, 4],
+            levels: [1, 2, 3],
             defaultLevel: 1
         }
     },
@@ -54,6 +54,7 @@ export default function EditorComponent({data, onChange, holder}: Props) {
                 data,
                 async onChange(api, event) {
                     const data = await api.saver.save();
+                    console.log(data);
                     onChange(data);
                 },
             });
